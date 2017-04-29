@@ -15,6 +15,6 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 ## April 2017
 
 1. Fractional Max-Pooling
-    [[Paper]](https://arxiv.org/pdf/1412.6071.pdf))
-    [[Write Up]](research-papers/april17/fractional-max-Pooling-paper-Summary.md)
+    [[Paper]](https://arxiv.org/pdf/1412.6071.pdf)
+    [[Write Up]](april17/fractional-max-Pooling-paper-Summary.md)
 

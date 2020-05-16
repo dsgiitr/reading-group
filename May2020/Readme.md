@@ -3,4 +3,5 @@
 ----
 ## Discussion 2
 [Selfie: Self-supervised Pretraining for Image Embedding](https://arxiv.org/abs/1906.02940)
+----
 

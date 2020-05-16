@@ -22,3 +22,7 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 1. Explaining and Harnessing Adversarial Examples
 [[Paper]](https://arxiv.org/abs/1412.6572)
 [[Write Up]](May2020/Discussion1/Summary.pdf)
+
+2. Selfie: Self-supervised Pretraining for Image Embedding
+[[Paper]](https://arxiv.org/abs/1906.02940)
+[[Write Up]](May2020/Discussion2/Summary.pdf)

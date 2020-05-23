@@ -26,3 +26,7 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 2. Selfie: Self-supervised Pretraining for Image Embedding
 [[Paper]](https://arxiv.org/abs/1906.02940)
 [[Write Up]](May2020/Discussion2/Summary.pdf)
+
+3. Mixed Precision Training
+[[Paper]](https://arxiv.org/abs/1710.03740)
+[[Write Up]](May2020/Discussion3/Mixed%20Precision%20Training.pdf)

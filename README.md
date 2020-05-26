@@ -5,6 +5,14 @@ development of a particular idea, and the complete thought process of the author
 
 A collection of concise write-ups on each paper, with something noteworthy is also maintained here.
 
+## Presentation Groups
+* g1 - Vipul, Sahil, Abhinav
+* g2 - Saswat, Ankit Biswas, Prankush, Chandel
+* g3 - Ishan, Aaryan, Sahoo, Anirudh
+* g4 - Shashank, Vivek, Shruti, Ajit
+* g5 - Akshit, Shikhar, Shashwat
+* g6 - Dhruv, Ankit Aharwal, Rohan, Yash
+
 ## 2020
 
 |       Date       | Topic | Presenters | Slides/Summary |

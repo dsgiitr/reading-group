@@ -1,5 +1,4 @@
 # Weekly Reading Group at DSG
-==============
 
 This repository hosts a list of research papers and topics that we discuss on every Saturday in the group. We believe that reading research papers not only strengthens our concepts, but also helps in understanding the intuition behind the 
 development of a particular idea, and the complete thought process of the author.

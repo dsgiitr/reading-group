@@ -7,4 +7,6 @@
 ## Discussion 3
 [Mixed Precision Training](https://arxiv.org/abs/1710.03740)
 ----
-
+## Discussion 4
+[Learning to learn by gradient descent by gradient descent](https://arxiv.org/abs/1606.04474)
+----

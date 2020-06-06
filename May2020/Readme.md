@@ -10,3 +10,6 @@
 ## Discussion 4
 [Learning to learn by gradient descent by gradient descent](https://arxiv.org/abs/1606.04474)
 ----
+## Discussion 5
+[Distilling the knowledge in a neural network](https://arxiv.org/pdf/1503.02531.pdf)
+----

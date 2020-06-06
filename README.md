@@ -17,6 +17,7 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 
 |       Date       | Topic | Presenters | Slides/Summary/Code |
 |:----------------:|:----------------------------------------:|:----------:|:------:|
+| 6th June, 2020 | [Distilling the knowledge in a neural network](https://arxiv.org/pdf/1503.02531.pdf) | Shashwat, Akshit | [Summary](May2020/Discussion5/summary.pdf), [Code for training teacher network](May2020/Discussion5/distill_basic_teacher.ipynb), [Code for training student network](May2020/Discussion5/distill_basic_student.ipynb)
 | 30th May, 2020 |	[Learning to learn by gradient descent by gradient descent](https://arxiv.org/abs/1606.04474)  | Shruti, Vivek, Shashank| [Summary](May2020/Discussion4/Learning%20to%20learn%20by%20gradient%20descent%20by%20gradient%20descent.pdf),  [Code](May2020/Discussion4/Grad%5E2.ipynb)
 | 23rd May, 2020 |	[Mixed Precision Training](https://arxiv.org/abs/1710.03740)  | Aaryan, Ishan, Anirudh| [Summary](May2020/Discussion3/Mixed%20Precision%20Training.pdf)
 | 16th May, 2020 |	[Selfie: Self-supervised Pretraining for Image Embedding](https://arxiv.org/abs/1906.02940)  | Ankit, Prankush| [Summary](May2020/Discussion2/Summary.pdf)

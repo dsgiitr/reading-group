@@ -17,7 +17,7 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 
 |       Date       | Topic | Presenters | Notes |
 |:----------------:|:----------------------------------------:|:----------:|:------:|
-| 13th June, 2020 | [What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?](https://arxiv.org/pdf/1703.04977.pdf) | Rohan,Yash | [Summary](Jun20/Discussion3/Summary.pdf)
+| 13th June, 2020 | [What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?](https://arxiv.org/pdf/1703.04977.pdf) | Rohan,Yash,Ankit | [Summary](Jun20/Discussion3/Summary.pdf)
 | 12th June, 2020 | [PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://papers.nips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf) & [Automatic differentiation in PyTorch](https://openreview.net/pdf?id=BJJsrmfCZ) | Anirudh, Saswat | Part of PyTorch Code Review Discussions in DSG
 | 6th June, 2020 | [Distilling the knowledge in a neural network](https://arxiv.org/pdf/1503.02531.pdf) | Shashwat, Akshit | [Summary](Jun20/Discussion5/summary.pdf), [Code Teacher network](Jun20/Discussion1/distill_basic_teacher.ipynb), [Code Student network](Jun20/Discussion1/distill_basic_student.ipynb)
 | 30th May, 2020 |	[Learning to learn by gradient descent by gradient descent](https://arxiv.org/abs/1606.04474)  | Shruti, Vivek, Shashank| [Summary](May2020/Discussion4/Learning%20to%20learn%20by%20gradient%20descent%20by%20gradient%20descent.pdf),  [Code](May2020/Discussion4/Grad%5E2.ipynb)

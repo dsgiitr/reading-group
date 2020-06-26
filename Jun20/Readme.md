@@ -11,3 +11,6 @@
 ## Discussion 4
 [Normalization Methods in Deep learning](https://arxiv.org/pdf/1502.03167.pdf)
 ----
+## Discusssion 5
+[Tutorial on Variational Autoencoders](https://arxiv.org/pdf/1606.05908.pdf)
+----

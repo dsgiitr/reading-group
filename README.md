@@ -5,20 +5,13 @@ development of a particular idea, and the complete thought process of the author
 
 A collection of concise write-ups on each paper, with something noteworthy is also maintained here.
 
-## Presentation Groups
-* g1 - Vipul, Sahil, Abhinav
-* g2 - Saswat, Ankit Biswas, Prankush, Chandel
-* g3 - Ishan, Aaryan, Sahoo, Anirudh
-* g4 - Shashank, Vivek, Shruti, Ajit
-* g5 - Akshit, Shikhar, Shashwat
-* g6 - Dhruv, Ankit Aharwal, Rohan, Yash
 
 ## 2020
 
 |       Date       | Topic | Presenters | Notes |
 |:----------------:|:----------------------------------------:|:----------:|:------:|
-| 27th June, 2020 | [Tutorial on Variational Autoencoders](https://arxiv.org/pdf/1606.05908.pdf) | Prankush, Vipul, Shikhar, Anirudh | [Summary](Jun20/Discussion5/Summary.pdf)
-| 20th June, 2020 | [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1703.04977.pdf), [LayerNorm](https://arxiv.org/abs/1607.06450), [GroupNorm](https://arxiv.org/pdf/1803.08494.pdf), [InstanceNorm](https://arxiv.org/abs/1607.08022) | Aaryan, Ishan, Anirudh | [Summary](Jun20/Discussion4/Summary.md)
+| 27th June, 2020 | [Tutorial on Variational Autoencoders](https://arxiv.org/pdf/1606.05908.pdf) | Prankush, Vipul | [Summary](Jun20/Discussion5/Summary.pdf)
+| 20th June, 2020 | [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf), [LayerNorm](https://arxiv.org/abs/1607.06450), [GroupNorm](https://arxiv.org/pdf/1803.08494.pdf), [InstanceNorm](https://arxiv.org/abs/1607.08022) | Aaryan, Ishan, Anirudh | [Summary](Jun20/Discussion4/Summary.md) [Code](Jun20/Discussion4/BatchNorm.ipynb)
 | 15th June, 2020 | [What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?](https://arxiv.org/pdf/1703.04977.pdf) | Rohan, Yash, Ankit | [Summary](Jun20/Discussion3/Summary.pdf)
 | 12th June, 2020 | [PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://papers.nips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf) & [Automatic differentiation in PyTorch](https://openreview.net/pdf?id=BJJsrmfCZ) | Anirudh, Saswat | Part of PyTorch Code Review Discussions in DSG
 | 6th June, 2020 | [Distilling the knowledge in a neural network](https://arxiv.org/pdf/1503.02531.pdf) | Shashwat, Akshit | [Summary](Jun20/Discussion1/summary.pdf), [Code Teacher network](Jun20/Discussion1/distill_basic_teacher.ipynb), [Code Student network](Jun20/Discussion1/distill_basic_student.ipynb)

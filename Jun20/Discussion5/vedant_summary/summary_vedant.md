@@ -16,7 +16,7 @@ This gives an intuition for 'maximum likelihood', promising it'll output similar
 Encoding can be seen as data inference here, to result into a latent data features' layer.
 
 ##### <i>Side note:</i>  
-Here, the probability function used in VAEs are Gaussian. It is represents that the Z will produce data points that are <b>like</b> X.
+Here, in VAEs, the probability function is Gaussian. It represents that the Z will produce data points that are <b>like</b> X.
 
 #### Maximising equation 1:
 

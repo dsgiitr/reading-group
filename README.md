@@ -10,6 +10,7 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 
 |       Date       | Topic | Presenters | Notes |
 |:----------------:|:----------------------------------------:|:----------:|:------:|
+| 4th July,2020 | [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf) | Sahil, Vivek, Akshit | [Summary](July20/Discussion1/Summary_GAN.pdf)  
 | 27th June, 2020 | [Tutorial on Variational Autoencoders](https://arxiv.org/pdf/1606.05908.pdf) | Prankush, Vipul | [Summary](Jun20/Discussion5/Summary.pdf)
 | 20th June, 2020 | [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf), [LayerNorm](https://arxiv.org/abs/1607.06450), [GroupNorm](https://arxiv.org/pdf/1803.08494.pdf), [InstanceNorm](https://arxiv.org/abs/1607.08022) | Aaryan, Ishan, Anirudh | [Summary](Jun20/Discussion4/Summary.md) [Code](Jun20/Discussion4/BatchNorm.ipynb)
 | 15th June, 2020 | [What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?](https://arxiv.org/pdf/1703.04977.pdf) | Rohan, Yash, Ankit | [Summary](Jun20/Discussion3/Summary.pdf)
@@ -19,7 +20,6 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 | 23rd May, 2020 |	[Mixed Precision Training](https://arxiv.org/abs/1710.03740)  | Aaryan, Ishan, Anirudh| [Summary](May20/Discussion3/Mixed%20Precision%20Training.pdf), [Code](May20/Discussion3/MixedPrecisionTraining.ipynb)
 | 16th May, 2020 |	[Selfie: Self-supervised Pretraining for Image Embedding](https://arxiv.org/abs/1906.02940)  | Ankit, Prankush| [Summary](May20/Discussion2/Summary.pdf)
 | 9th May, 2020 |	[Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572)  | Abhinav, Sahil, Vipul| [Summary](May20/Discussion1/Summary.pdf)
-
 ## 2017
 
 |       Date       | Topic | Presenters | Notes |

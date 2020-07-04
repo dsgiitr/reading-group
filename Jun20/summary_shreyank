@@ -1,0 +1,19 @@
+GAN SUMMARY 
+GAN'S are typically based on two main concepts i.e. a generator and a discriminator
+a generator tries to regenerate the the given data(x) wheras a discriminator tries to 
+get the probability as to whether the data provided to the discriminator belongs to 
+generated output or the given data.
+to generate the distribution Pg over data(x) we pass on a prior input noise variable Pz
+which helps in generating the output(G(z)).Then we pit the generated output against the discriminator 
+whereinwe train the discriminator to differentiate between the generated output and the
+real data wherein we update the weights by backprop by maximising 
+log(D(x))+log(1-D(G(z))) and we minimise log(1-D(G(z))) this and update the weight sin the case of
+the generator we optimise by taking k steps at at a time to update the discriminator while we 
+update the genertor one step at a time
+We generally prefer to maximise log(D(G(z))) in the case of updating generatoe so that we have a steady 
+learning rate at the start of algorithm 
+in this case we find that there exists a min max problem with the generator and 
+the discriminator where the equation is minmaxV(G,D)=log(D(x))+log(1-D(G(z)))
+so we prove that it is optimum when Pg=Pdata.
+and hence the algorithm converges to Pdata at the end 
+

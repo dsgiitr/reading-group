@@ -10,6 +10,7 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 
 |       Date       | Topic | Presenters | Notes |
 |:----------------:|:----------------------------------------:|:----------:|:------:|
+| 18th July, 2020| [Long Short-Term Memory (LSTM)](https://arxiv.org/abs/1503.04069.pdf) | Aaryan, Shruti, Ishan | [Summary](July20/Discussion2/Summary.md) [Code](July20/Discussion2/LSTM.ipynb)
 | 4th July,2020 | [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf) | Sahil, Vivek, Akshit | [Summary](July20/Discussion1/Summary_GAN.pdf)  
 | 27th June, 2020 | [Tutorial on Variational Autoencoders](https://arxiv.org/pdf/1606.05908.pdf) | Prankush, Vipul | [Summary](Jun20/Discussion5/Summary.pdf)
 | 20th June, 2020 | [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf), [LayerNorm](https://arxiv.org/abs/1607.06450), [GroupNorm](https://arxiv.org/pdf/1803.08494.pdf), [InstanceNorm](https://arxiv.org/abs/1607.08022) | Aaryan, Ishan, Anirudh | [Summary](Jun20/Discussion4/Summary.md) [Code](Jun20/Discussion4/BatchNorm.ipynb)

@@ -5,4 +5,3 @@
 ## Discussion 2
 [LSTM - A Search Space Odyssey](https://arxiv.org/abs/1503.04069.pdf)
 ----
-

@@ -6,3 +6,6 @@
 [LSTM - A Search Space Odyssey](https://arxiv.org/abs/1503.04069.pdf)
 ----
 
+## Discussion 3
+[Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf)
+----

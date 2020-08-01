@@ -10,7 +10,7 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 
 |       Date       | Topic | Presenters | Notes |
 |:----------------:|:----------------------------------------:|:----------:|:------:|
-| 1st August, 2020| [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) | Abhinav, Shashwat, Shashank | [Code](Aug20/Discussion1/ResNet_Implementation.ipynb)
+| 1st August, 2020| [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) | Abhinav, Shashwat, Shashank | [Summary](Aug20/Discussion1/ResNet_Summary.pdf) [Code](Aug20/Discussion1/ResNet_Implementation.ipynb)
 | 18th July, 2020| [Long Short-Term Memory (LSTM)](https://arxiv.org/abs/1503.04069.pdf) | Aaryan, Shruti, Ishan | [Summary](July20/Discussion2/Summary.md) [Code](July20/Discussion2/LSTM.ipynb)
 | 4th July,2020 | [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf) | Sahil, Vivek, Akshit | [Summary](July20/Discussion1/Summary_GAN.pdf)  
 | 27th June, 2020 | [Tutorial on Variational Autoencoders](https://arxiv.org/pdf/1606.05908.pdf) | Prankush, Vipul | [Summary](Jun20/Discussion5/Summary.pdf)

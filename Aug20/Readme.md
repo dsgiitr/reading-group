@@ -4,3 +4,5 @@
 ## Discussion 2
 [iSeeBetter: Spatio-temporal video super-resolution using recurrent generative back-projection networks](https://arxiv.org/abs/2006.11161)
 ----
+## Discussion 3
+[Neural Arithmetic Logic Units](https://arxiv.org/pdf/1808.00508.pdf)

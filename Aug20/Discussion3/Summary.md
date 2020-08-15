@@ -6,7 +6,9 @@ Traditional neural networks had very poor performance when faced with data well 
 
 They trained an autoencoder to learn the identity function between -5 to 5, and tested it between -20 to +20. Here are the results for a variety of different non-linear activations:
 
-![Boom!](images/boom.png)
+<p align="center">
+  <img width="60%" src="images/boom.png" />
+</p>
 
 The authors suggest some reasons for this failure:
 >The severity of this failure directly corresponds to the degree of non-linearity within the chosen activation function. Some activations learn to be highly linear (such as PReLU) which reduces error somewhat, but sharply non-linear functions such as sigmoid and tanh fail consistently.
@@ -22,7 +24,9 @@ This is for addition (or subtraction) only. It employs a hadamard product of tan
 
 The weight matrix has been split into two parameters now, as a result. The structure of the NAC is as follows:
 
-![NAC](images/nac.png)
+<p align="center">
+  <img width="60%" src="images/nac.png" />
+</p>
 
 ### Neural Arithmetic Logic Unit
 This is the complete package. It can perform all basic arithmetic operations like addition, subtraction, multiplication and division. It employs a normal NAC for addition, subtraction; but for multiplication (or division), it exponentiates the addition (or subtraction) of the logarithms (natural) of the input rows. Effectively, this leads to the multiplication or division of input rows.
@@ -36,7 +40,9 @@ Also, to switch between operations, NALU has a sigmoid gate:
 
 <b>g</b> = &sigma;(<b>G</b>x)
 
-![NALU](images/nalu.png)
+<p align="center">
+  <img width="60%" src="images/nalu.png" />
+</p>
 
 NALU output:    <b>y</b> = <b>g</b> &#8857; <b>a</b> + (1 - <b>g</b>) &#8857; <b>m</b>
 

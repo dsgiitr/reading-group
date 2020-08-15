@@ -57,5 +57,5 @@ NALU output:    <b>y</b> = <b>g</b> &#8857; <b>a</b> + (1 - <b>g</b>) &#8857; <b
 - Not yet perfect for every task
 
 ## Recent Works
-Andreas Masden et al. published a paper in ICLR 2020 named "Neural Arithmetic Units". This was a step forward towards improving root defects in the strategy proposed in this paper. NAU doesn't support division yet though.
+[Andreas Madsen et al.](https://arxiv.org/pdf/2001.05016.pdf) published a paper in ICLR 2020 named ["Neural Arithmetic Units"](https://arxiv.org/pdf/2001.05016.pdf). This was a step forward towards improving root defects in the strategy proposed in this paper. NAU doesn't support division yet though.
 

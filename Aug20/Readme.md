@@ -8,3 +8,7 @@
 ----
 ## Discussion 3
 [Neural Arithmetic Logic Units](https://arxiv.org/pdf/1808.00508.pdf)
+
+----
+## Discussion 4
+[SPECTER: Document-level Representation Learning using Citation-informed Transformers](https://arxiv.org/pdf/2004.07180.pdf)

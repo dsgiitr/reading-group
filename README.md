@@ -10,7 +10,7 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 
 |       Date       | Topic | Presenters | Notes |
 |:----------------:|:----------------------------------------:|:----------:|:------:|
-| 15th August, 2020| [SPECTER: Document-level Representation Learning using Citation-informed Transformers](https://arxiv.org/pdf/2004.07180.pdf), [Neural Arithmetic Logic Units](https://arxiv.org/pdf/1808.00508.pdf) | Anirudh Aaryan | [Summary-1](Aug20/Discussion4/Summary.md) [Summary-2](Aug20/Discussion3/Summary.md)
+| 15th August, 2020| [SPECTER: Document-level Representation Learning using Citation-informed Transformers](https://arxiv.org/pdf/2004.07180.pdf), [Neural Arithmetic Logic Units](https://arxiv.org/pdf/1808.00508.pdf) | Anirudh, Aaryan | [Summary (Specter)](Aug20/Discussion4/Summary.md) [Summary (NALU)](Aug20/Discussion3/Summary.md)
 | 8th August, 2020| [iSeeBetter: Spatio-temporal video super-resolution using recurrent generative back-projection networks & Other SRs](https://arxiv.org/abs/2006.11161) | Rohan, Saswat| [Summary](Aug20/Discussion2/Discussion.pdf)
 | 1st August, 2020| [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) | Abhinav, Shashwat, Shashank | [Summary](Aug20/Discussion1/ResNet_Summary.pdf) [Code](Aug20/Discussion1/ResNet_Implementation.ipynb)
 | 18th July, 2020| [Long Short-Term Memory (LSTM)](https://arxiv.org/abs/1503.04069.pdf) | Aaryan, Shruti, Ishan | [Summary](July20/Discussion2/Summary.md) [Code](July20/Discussion2/LSTM.ipynb)

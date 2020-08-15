@@ -1,6 +1,9 @@
 Our goal is to represent a given paper (scientific publication) `P` as a dense vector `v` that best represents the paper and can be used in downstream tasks.
 
-![SPECTER](images/Specter_Overview.jpg)
+<p align="center">
+  <img width="50%" src="images/Specter_Overview.jpg" />
+</p>
+
 
 ## Introduction
 [SPECTER (Scientific Paper Embeddings using Citation informed TransformERs)](https://arxiv.org/pdf/2004.07180.pdf) is yet another BERT inspired paper by AllenAI attempting to solve the problem of generating document-level embedding of scientific documents based on pretraining a Transformer language model on a powerful signal of document-level relatedness i.e a Citation Graph.
@@ -31,7 +34,9 @@ embeddings, since they are written to provide a succinct and comprehensive summa
 
 The idea is to design a loss function that trains the Transformer model to learn closer representations for papers when one cites the other, and more distant representations otherwise. This is achieved by a Triplet Margin Loss objective.
 
-![SPECTER](images/Specter_Visualization.jpg)
+<p align="center">
+  <img width="60%" src="images/Specter_Visualization.jpg" />
+</p>
 
 ### Steps
 

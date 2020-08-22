@@ -10,11 +10,12 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 
 |       Date       | Topic | Presenters | Notes |
 |:----------------:|:----------------------------------------:|:----------:|:------:|
+| 22nd August, 2020| [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Ankit, Yash, Ankit Aharwal| [Summary](Aug20/Discussion5/Attention&Transformer.pdf) [Code](Aug20/Discussion5/Transformer.ipynb)
 | 15th August, 2020| [SPECTER: Document-level Representation Learning using Citation-informed Transformers](https://arxiv.org/pdf/2004.07180.pdf), [Neural Arithmetic Logic Units](https://arxiv.org/pdf/1808.00508.pdf) | Anirudh, Aaryan | [Summary (Specter)](Aug20/Discussion4/Summary.md) [Summary (NALU)](Aug20/Discussion3/Summary.md)
 | 8th August, 2020| [iSeeBetter: Spatio-temporal video super-resolution using recurrent generative back-projection networks & Other SRs](https://arxiv.org/abs/2006.11161) | Rohan, Saswat| [Summary](Aug20/Discussion2/Discussion.pdf)
 | 1st August, 2020| [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385.pdf) | Abhinav, Shashwat, Shashank | [Summary](Aug20/Discussion1/ResNet_Summary.pdf) [Code](Aug20/Discussion1/ResNet_Implementation.ipynb)
 | 18th July, 2020| [Long Short-Term Memory (LSTM)](https://arxiv.org/abs/1503.04069.pdf) | Aaryan, Shruti, Ishan | [Summary](July20/Discussion2/Summary.md) [Code](July20/Discussion2/LSTM.ipynb)
-| 4th July,2020 | [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf) | Sahil, Vivek, Akshit | [Summary](July20/Discussion1/Summary_GAN.pdf)  
+| 4th July,2020 | [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf) | Sahil, Vivek, Akshit | [Summary](July20/Discussion1/Summary_GAN.pdf) 
 | 27th June, 2020 | [Tutorial on Variational Autoencoders](https://arxiv.org/pdf/1606.05908.pdf) | Prankush, Vipul | [Summary](Jun20/Discussion5/Summary.pdf)
 | 20th June, 2020 | [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf), [LayerNorm](https://arxiv.org/abs/1607.06450), [GroupNorm](https://arxiv.org/pdf/1803.08494.pdf), [InstanceNorm](https://arxiv.org/abs/1607.08022) | Aaryan, Ishan, Anirudh | [Summary](Jun20/Discussion4/Summary.md) [Code](Jun20/Discussion4/BatchNorm.ipynb)
 | 15th June, 2020 | [What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?](https://arxiv.org/pdf/1703.04977.pdf) | Rohan, Yash, Ankit | [Summary](Jun20/Discussion3/Summary.pdf)

@@ -12,3 +12,7 @@
 ----
 ## Discussion 4
 [SPECTER: Document-level Representation Learning using Citation-informed Transformers](https://arxiv.org/pdf/2004.07180.pdf)
+
+----
+## Discussion 5
+[Attention Is All You Need](https://arxiv.org/abs/1706.03762.pdf)

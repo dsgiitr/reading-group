@@ -1,0 +1,36 @@
+Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift
+
+The distribution of each layer’s inputs changes during training, as the parameters of the previous layer change. This slows down the training by requiring lower learning rates and careful parameter initialization and makes it very hard to train models with saturating nonlinearities. We refer to this phenomenon as an internal covariate shift and address the problem by normalizing layer inputs.
+
+Batch Normalization allows us to use much higher learning rates and be less careful about initialization. It also acts as a regularizer, in some cases eliminating the need for Dropout. Actually, the training is complicated by the fact that the inputs to each layer are affected by the parameters of all preceding layers, so that small changes to the network parameters amplify as the network becomes deeper.
+
+Consider a layer with a sigmoid activation function z = g(W u + b) where u is the layer input, the weight matrix W and bias vector b are the layer parameters to be learned. As x decreases, g(x) tends to zero. This means that for all dimensions of x = W u+b except those with small absolute values, the gradient flowing down to u will vanish and the model will train slowly. Changes to parameters during training will likely move many dimensions of x into the saturated regime of the nonlinearity and slow down the convergence. This effect is amplified as the network depth increases. In practice, the saturation problem and the resulting vanishing gradients are usually addressed by using Rectified Linear Units.
+
+The paper defines Internal Covariate Shift as the change in the distribution of network activations due to the change in network parameters during training. It improves by fixing the distribution of the layer inputs x as the training progresses, it can improve the training speed. It has been long known that the network training converges faster if its inputs are whitened – i.e., linearly transformed to have zero means and unit variances, and decorrelated.
+
+X be the set of these inputs over the training data set. The normalization can then be written as a transformation x’ = Norm(x, X ). For backpropagation, we would need to compute the Jacobians. Within this framework, whitening the layer inputs is expensive, as it requires computing the covariance matrix Cov[x] = E x∈X [xx T ] − E[x]E[x] T and its
+inverse square root, to produce the whitened activations Cov[x] −1/2 (x − E[x]), as well as the derivatives of these transforms for backpropagation. This motivates us to seek an alternative that performs input normalization in a way that is differentiable and does not require the analysis of the entire training set after every parameter update.
+
+Normalization via mini-batch Statistic:
+Instead of whitening the features in layer inputs and outputs jointly, we will normalize each scalar feature independently, by making it have the mean of zero and the variance of 1.    
+Since we use mini-batches in stochastic gradient training, each mini-batch produces estimates of the mean and variance of each activation. This way, the statistics used for normalization can fully participate in the gradient backpropagation.
+Step1: Calculate mini-batch mean
+Step2: Calculate mini-batch variance
+Step3: normalize, We present the BN Transform. In the algorithm, (epsilon) is a constant added to the mini-batch variance for numerical stability.
+Step4: scale and ship by the help of ‘gama’ and ‘beta’, where these two are learning parameters.
+                yi = ‘gama’*xi + ‘beta’
+
+Inference with Batch-Normalized Networks:
+We use the unbiased variance estimate Var[x] = (m/(m−1))·EB[σB2], where the expectation is on training mini-batches of size m and σB2 are their sample variances. Using moving averages instead, we can track the accuracy of a model as it trains. Since the means and variances are fixed during inference, the normalization is simply a linear transform applied to
+each activation.
+
+Batch normalized convolution networks
+We could have normalized the layer inputs u, but since u is likely the output of another nonlinearity, the shape of its distribution is likely to change during training, and constraining its first and second moments would not eliminate the covariate shift.
+Note that, since we normalize W u+b, the bias b can be ignored since its effect will be canceled by the subsequent mean subtraction.
+Thus, z = g(W u + b) is replaced with z = g(BN(W u))
+For convolutional layers, we additionally want the normalization to obey the convolutional property, so those different elements of the same feature map, at different locations, are normalized in the same way. To achieve this, we jointly normalize all the activations in a mini-batch, over all locations. We learn a pair of parameters γ (k) and β (k) per feature map, rather than per activation
+
+Batch Normalization enables higher learning rates
+It prevents the training from getting stuck in the saturated regimes of nonlinearities. large learning rates may increase the scale of layer parameters, which then amplify the gradient during backpropagation and lead to the model explosion. However, with Batch Normalization, back-propagation through a layer is unaffected by the scale of its parameters.
+Larger weights lead to smaller gradients, and Batch Normalization will stabilize the parameter growth.
+

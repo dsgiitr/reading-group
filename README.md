@@ -10,6 +10,7 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 
 |       Date       | Topic | Presenters | Notes |
 |:----------------:|:----------------------------------------:|:----------:|:------:|
+| 4th October, 2020| <a href="https://arxiv.org/abs/1911.03082"> Composition-Based Multi-Relational Graph Convolutional Networks (CompGCN) </a> | Anirudh | [Summary](Oct20/Discussion1/Summary.md)
 | 22nd August, 2020| [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Ankit, Yash, Ankit Aharwal| [Summary](Aug20/Discussion5/Attention&Transformer.pdf) [Code](Aug20/Discussion5/Transformer.ipynb)
 | 15th August, 2020| [SPECTER: Document-level Representation Learning using Citation-informed Transformers](https://arxiv.org/pdf/2004.07180.pdf), [Neural Arithmetic Logic Units](https://arxiv.org/pdf/1808.00508.pdf) | Anirudh, Aaryan | [Summary (Specter)](Aug20/Discussion4/Summary.md) [Summary (NALU)](Aug20/Discussion3/Summary.md)
 | 8th August, 2020| [iSeeBetter: Spatio-temporal video super-resolution using recurrent generative back-projection networks & Other SRs](https://arxiv.org/abs/2006.11161) | Rohan, Saswat| [Summary](Aug20/Discussion2/Discussion.pdf)

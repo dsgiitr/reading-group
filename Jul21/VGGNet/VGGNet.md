@@ -27,7 +27,6 @@ The architecture of the VGG16 network (with $16$ deep layers) is shown in the di
 
 - It was observed that this network was slow to train and deploy due to its depth and number of fully connected node.
 - The weights involved in this network are by themselves quite large. 
--   
 
 ## References
 - [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf )

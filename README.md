@@ -7,12 +7,8 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 ## 2021 
 |       Date       | Topic | Presenters | Notes |
 |:----------------:|:----------------------------------------:|:----------:|:------:|
-|26th June, 2021| <a href="https://arxiv.org/pdf/1409.1556.pdf"> Very Deep Convolutional Networks for Large-Scale Image Recognition </a>| Apoorva, Subodh| [Summary](Jul21/VGGNet/VGGNet.md)
-
-## 2021
-|       Date       | Topic | Presenters | Notes |
-|:----------------:|:----------------------------------------:|:----------:|:------:|
 | 10th August 2021| <a href="https://arxiv.org/pdf/1311.2901.pdf"> Visualizing and Understanding Convolutional Networks </a> | Pranjal, Praneeth | [Summary](Aug21/Discussion2/summary.md)
+|26th June, 2021| <a href="https://arxiv.org/pdf/1409.1556.pdf"> Very Deep Convolutional Networks for Large-Scale Image Recognition </a>| Apoorva, Subodh| [Summary](Jul21/VGGNet/VGGNet.md)
 
 ## 2020
 

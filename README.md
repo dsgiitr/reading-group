@@ -4,7 +4,10 @@ This repository hosts a list of research papers and topics that we discuss on ev
 development of a particular idea, and the complete thought process of the author.
 
 A collection of concise write-ups on each paper, with something noteworthy is also maintained here.
-
+## 2021 
+|       Date       | Topic | Presenters | Notes |
+|:----------------:|:----------------------------------------:|:----------:|:------:|
+|26th June, 2021| <a href="https://arxiv.org/pdf/1409.1556.pdf"> Very Deep Convolutional Networks for Large-Scale Image Recognition </a>| Apoorva, Subodh| [Summary](Jul21/VGGNet/VGGNet.md)
 
 ## 2021
 |       Date       | Topic | Presenters | Notes |

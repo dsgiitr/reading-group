@@ -21,7 +21,7 @@ when a filter is made to convolve with a piece of data, the output is
 maximum when that piece of data is the filter itself). If this is done
 to the hidden layers, the results are not satisfying or interpretable.
 
-![](.\media\image1.png)
+![](./media/image1.png)
 
 ## Approach:
 
@@ -35,7 +35,8 @@ deconvnet.
 **Deconvolutional Network:** They were proposed as a way of performing
 unsupervised learning. Here they are just used to examine an already
 learned result. 
-![](.\media\image2.png)
+
+![](./media/image2.png)
 
 -   **Unpooling**: Pooling operation is
     irreversible; hence they try to generate an approximate result by
@@ -67,10 +68,11 @@ structures that excite a given feature map. Alongside these projections,
 the original image patches are shown too. Hierarchical nature of
 features can be seen.
 
-![](.\media\image3.png)*Layer 1*:
-edges. *Layer 2*: corners and colour conjunctions. *Layer 3*: captures
-similar textures. *Layer 4*: class-specific variation (dog faces, bird's
-legs). *Layer 5*: entire objects with significant pose variation
+![](./media/image3.png)
+
+*Layer 1*: edges. *Layer 2*: corners and colour conjunctions. *Layer 3*: 
+captures similar textures. *Layer 4*: class-specific variation (dog faces, 
+bird's legs). *Layer 5*: entire objects with significant pose variation
 (keyboards, dogs).
 
 ### Experiment 2: Feature Evolution during Training
@@ -81,7 +83,9 @@ evolution over various epochs (1, 2, 5, 10, 20, 30, 40, 64).
 
 We see that the lower layer features develop and converge within a few
 epochs, whereas the higher layer develop only after a significant number
-of epochs.![](.\media\image4.png)
+of epochs.
+
+![](./media/image4.png)
 
 ### Experiment 3: Feature Invariance
 
@@ -107,12 +111,14 @@ To fix these problems, they make the following changes:
 
 -   Made the stride of the convolution 2 rather than 4
 
-This improved the classification
-accuracy![](.\media\image5.png)
+This improved the classification accuracy
+
+![](./media/image5.png)
 
 ### Experiment 5: Occlusion Sensitivity
 
 Now we also want to confirm if our CNN is identifying the location of the
 object in the image. For this, they covered regions of the image with a
 grey box and performed the training. Below are the amazing results:
-![](.\media\image6.png)
+
+![](./media/image6.png)

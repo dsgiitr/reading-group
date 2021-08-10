@@ -57,7 +57,7 @@ reconstructions obtained from a single activation resembles a small
 piece of the input image weighted according to their contribution
 towards the feature activation.
 
-Results:
+## Results:
 
 ### Experiment 1: Feature Visualization
 

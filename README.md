@@ -6,6 +6,11 @@ development of a particular idea, and the complete thought process of the author
 A collection of concise write-ups on each paper, with something noteworthy is also maintained here.
 
 
+## 2021
+|       Date       | Topic | Presenters | Notes |
+|:----------------:|:----------------------------------------:|:----------:|:------:|
+| 10th August 2021| <a href="https://arxiv.org/pdf/1311.2901.pdf"> Visualizing and Understanding Convolutional Networks </a> | Pranjal, Praneeth | [Summary](Aug21/Discussion2/summary.md)
+
 ## 2020
 
 |       Date       | Topic | Presenters | Notes |

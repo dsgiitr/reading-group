@@ -7,8 +7,10 @@ A collection of concise write-ups on each paper, with something noteworthy is al
 ## 2021 
 |       Date       | Topic | Presenters | Notes |
 |:----------------:|:----------------------------------------:|:----------:|:------:|
+|15th August, 2021| <a href="http://papers.nips.cc/paper/5166-training-and-analysing-deep-recurrent-neural-networks.pdf"> Training and Analysing Deep Recurrent Neural Networks </a>| Shreshtha, Manas |[Summary](Aug21/Discussion3/summary.pdf)
 | 10th August 2021| <a href="https://arxiv.org/pdf/1311.2901.pdf"> Visualizing and Understanding Convolutional Networks </a> | Pranjal, Praneeth | [Summary](Aug21/Discussion2/summary.md)
 |26th June, 2021| <a href="https://arxiv.org/pdf/1409.1556.pdf"> Very Deep Convolutional Networks for Large-Scale Image Recognition </a>| Apoorva, Subodh| [Summary](Jul21/VGGNet/VGGNet.md)
+
 
 ## 2020
 

@@ -1,6 +1,6 @@
 # YOLO: You Only Look Once
 ## Abstract
-YOLOis a new approach to real-time unified object detetction. Object detetction before YOLO employed classifiers for object detection. But here, object detection is reframed as a simple regression problem to spatially separated bounding boxes and associated class probabilities. YOLO learns very general representations of objects, outperforming other de- tection methods, including DPM and R-CNN.
+YOLO is a new approach to real-time unified object detetction. Object detetction before YOLO employed classifiers for object detection. But here, object detection is reframed as a simple regression problem to spatially separated bounding boxes and associated class probabilities. YOLO learns very general representations of objects, outperforming other de- tection methods, including DPM and R-CNN.
 
 ## Introduction
 - Systems like deformable parts models (DPM) use a sliding window approach where the classifier is run at evenly spaced locations over the entire image.<br><br>
